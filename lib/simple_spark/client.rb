@@ -147,5 +147,9 @@ module SimpleSpark
     def suppression_list
       Endpoints::SuppressionList.new(self)
     end
+
+    def recipient_lists
+      Endpoints::RecipientLists.new(self)
+    end
   end
 end
